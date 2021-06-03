@@ -1,11 +1,9 @@
 ################################### Default Configuration ############################
 baseurl = "http://examplesite.com/"
-title = "Vex | hugo landing page template"
+title = "Washed.pl"
 theme = "vex-hugo"
 # post excert
 summarylength = "20"
-# google analytics
-googleAnalytics = "" # Ex: UA-123-45
 # disable language
 disableLanguages = [] # disable language from here
 
@@ -17,7 +15,9 @@ unsafe = true
 
 # CSS Plugins
 [[params.plugins.css]]
-link = "https://fonts.googleapis.com/css?family=Droid+Serif:400|Josefin+Sans:300,400,600,700"
+link = "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
@@ -42,62 +42,37 @@ link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"
 
 # homepage section menu
 [[menu.main]]
-name = "Home"
+name = "ZALOGUJ"
 url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Products"
-url = "products"
+name = "ZAREJESTRUJ"
+url = "/"
 weight = 2
-
-[[menu.main]]
-name = "Blog"
-url = "blog"
-weight = 3
-
-[[menu.main]]
-name = "Review"
-pre = "#"
-url = "testimonial"
-weight = 4
-
-[[menu.main]]
-name = "Contact"
-url = "contact"
-weight = 5
 
 # footer menu
-[[menu.footer]]
-name = "Blog"
-url = "blog"
-weight = 1
 
-[[menu.footer]]
-name = "Contact"
-url = "contact"
-weight = 2
+#[[menu.footer]]
+#name = "Terms & Conditions"
+#url = "terms-conditions"
+#weight = 3
 
-[[menu.footer]]
-name = "Terms & Conditions"
-url = "terms-conditions"
-weight = 3
-
-[[menu.footer]]
-name = "Privacy Policy"
-url = "privacy-policy"
-weight = 4
+#[[menu.footer]]
+#name = "Privacy Policy"
+#url = "privacy-policy"
+#weight = 4
 
 
 ########################### Default parameters ##########################
 [params]
-logo = "images/logo.png"
+logo = "images/logo.svg"
 logo_width = "100px"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
 # currency
-currency = "$"
+currency = "zł"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # snipcart public api key
@@ -122,14 +97,4 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 # copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
-
-
-################################### French language #####################################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-# copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Illustrations by [ansurd.design](https://absurd.design/)"

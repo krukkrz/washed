@@ -1,12 +1,12 @@
 ############################# banner ############################
 banner:
   enable : true
-  title : "Believe in Technology, Make the change"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
-  image : "images/watch.png"
+  title : "A gdyby tak filtrować fake news?"
+  content : "W dzisiejszej dobie natłoku informacji coraz trudniej jest sprawdzać pochodzenie newsów i artykułów. Przneieś tą odpowiedzialność na <b>Washed.pl</b>"
+  image : "images/01.png"
   button:
    enable : true
-   label : "Browse All Products"
+   label : "Dowiedz się więcej"
    link : "products"
 
 ############################# Feature ############################

@@ -6,12 +6,12 @@
 <section class="section">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 text-center mb-5 mb-md-0">
+			<div class="col-md-6 text-center mb-5 mb-md-0 display-on-large">
 				<img class="img-fluid" src="{{ .image | absURL }}" alt="">
 			</div>
 			<div class="col-md-6 align-self-center text-center text-md-left">
 				<div class="block">
-					<h1 class="font-weight-bold mb-4 font-size-60">{{ .title | markdownify }}</h1>
+					<h1 class="font-weight-bold mb-4">{{ .title | markdownify }}</h1>
 					<p class="mb-4">{{ .content | markdownify }}</p>
 					{{ if .button.enable }}
 					{{ with .button }}

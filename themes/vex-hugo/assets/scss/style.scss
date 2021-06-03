@@ -184,7 +184,6 @@ a:active {
   h2 {
     color: #3c3c3c;
     padding-bottom: 15px;
-    text-transform: capitalize;
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
@@ -200,7 +199,7 @@ a:active {
 .subheading {
   color: #3c3c3c;
   padding-bottom: 15px;
-  text-transform: capitalize;
+  text-transform: capitlize;
   font-weight: 500;
   font-size: 32px;
   line-height: 45px;
@@ -383,23 +382,24 @@ b {
     }
 
     p {
-      font-family: $secondary-font;
-      font-size: 14px;
+      font-family: $primary-font;
+      font-size: 12px;
       color: #777;
     }
 
     .author-details {
       margin-top: 30px;
+      height: 350px;
 
       img {
-        border-radius: 50%;
-        width: 50px;
+        width: 150px;
       }
 
       h4 {
         font-weight: 700;
         font-size: 20px;
         margin-top: 10px;
+        margin-bottom: 10px;
       }
     }
   }

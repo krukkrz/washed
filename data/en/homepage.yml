@@ -20,31 +20,42 @@ promo:
     label: "Dołącz"
     link: "products"
 
-############################# About Product #######################
-about_product:
+############################# how it works #######################
+how_it_works:
   enable: true
-  title: "Why Choose Apple Watch"
-  items:
-    # about product item loop
-    - image: "images/showcase/showcase-4.png"
-      title: "Lorem ipsum dolor sit amet."
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-        sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-        quas, quo harum deserunt consequatur cumque!"
+  title: "W jaki sposób pierzemy?"
+  how_it_works_item:
+    - title: "Najpierw kolejka"
+      image: "images/how_it_works/01.png"
+      content: "Na początek każda informacja znajduje się w poczekalni. Wpadają tutaj informacje z wielu różnych źródeł znalezionych w internecie: artykuły, posty, blogi itp. Sam też możesz zgłosić źródło jeśli uznasz, że go u nas brakuje."
       button:
-        enable: false
-        label: "Check Features"
-        link: "#"
+        enable: true
+        label: "Dołącz"
+        link: "products"
 
-    # about product item loop
-    - image: "images/showcase/showcase-3.png"
-      title: "Lorem ipsum dolor sit amet."
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-        sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-        quas, quo harum deserunt consequatur cumque!"
+    - title: "Dalej sprawdzenie"
+      image: "images/how_it_works/02.png"
+      content: "Następnie specjalni członkowie, zwani <b>reviewerami</b> sprawdzają zgodność informacji z rzeczywistością. </br>Ty też możesz zostać <b>reviewerem</b>."
       button:
-        enable: false
-        label: "Check Features"
-        link: "#"
+        enable: true
+        label: "Dołącz"
+        link: "products"
+
+    - title: "Na koniec werdykt"
+      image: "images/how_it_works/03.png"
+      content: "Reviewerzy oznaczają informację trzema różnymi statusami: PRAWDZIWA, FAŁSZYWA, NEUTRALNA"
+      button:
+        enable: true
+        label: "Dołącz"
+        link: "products"
+
+############################# how it works #######################
+install:
+  enable: true
+  bg_image: "images/03.png"
+  title: "Zainstaluj zaplikację Washed.pl"
+  content: "I dołącz do społeczności, której można zaufać"
+  button:
+    enable: true
+    label: "Zainstaluj"
+    link: "products"

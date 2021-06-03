@@ -196,6 +196,22 @@ a:active {
   }
 }
 
+.error {
+
+  .content {
+    width: 100%;
+    text-align: center;
+  }
+
+  p {
+    margin-top: 15px;
+  }
+
+  img {
+    width: 220px;
+  }
+}
+
 .subheading {
   color: #3c3c3c;
   padding-bottom: 15px;
@@ -641,5 +657,16 @@ textarea.form-control {
   text-decoration: none !important;
   &:hover {
     color: $primary-color;
+  }
+}
+
+.link {
+  color: $primary-color;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 10px;
+  &:hover {
+    color: $primary-color;
+    text-decoration: underline;
   }
 }

@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Dowiedz się więcej"
-    link: "products"
+    link: "error"
 
 ############################# promo ############################
 promo:
@@ -18,7 +18,7 @@ promo:
   button:
     enable: true
     label: "Dołącz"
-    link: "products"
+    link: "error"
 
 ############################# how it works #######################
 how_it_works:
@@ -30,24 +30,24 @@ how_it_works:
       content: "Na początek każda informacja znajduje się w poczekalni. Wpadają tutaj informacje z wielu różnych źródeł znalezionych w internecie: artykuły, posty, blogi itp. Sam też możesz zgłosić źródło jeśli uznasz, że go u nas brakuje."
       button:
         enable: true
-        label: "Dołącz"
-        link: "products"
+        label: "Jak dodać źródło?"
+        link: "error"
 
     - title: "Dalej sprawdzenie"
       image: "images/how_it_works/02.png"
       content: "Następnie specjalni członkowie, zwani <b>reviewerami</b> sprawdzają zgodność informacji z rzeczywistością. </br>Ty też możesz zostać <b>reviewerem</b>."
       button:
         enable: true
-        label: "Dołącz"
-        link: "products"
+        label: "Jak zostać reviewerem?"
+        link: "error"
 
     - title: "Na koniec werdykt"
       image: "images/how_it_works/03.png"
       content: "Reviewerzy oznaczają informację trzema różnymi statusami: PRAWDZIWA, FAŁSZYWA, NEUTRALNA"
       button:
         enable: true
-        label: "Dołącz"
-        link: "products"
+        label: "Co oznaczają statusy?"
+        link: "error"
 
 ############################# how it works #######################
 install:
@@ -58,4 +58,4 @@ install:
   button:
     enable: true
     label: "Zainstaluj"
-    link: "products"
+    link: "error"

@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <section class="section">
+    <div class="container">
+      <div class="row justify-content-center error">
+        <img src="{{ .Params.image | absURL }}" alt="{{ .Params.name }}">
+        <div class="col-lg-10 text-center mb-5">
+          <h1 class="font-weight-bold">{{.Params.text}}</h1>
+          <p>{{.Params.subtext}}</p>
+        </div>
+        <div class="col-lg-10 mb-5">
+          <div class="content">
+            <iframe class="form" src="{{.Params.forms}}" width="500" height="600" frameborder="0" marginheight="0" marginwidth="0">Ładuję…</iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

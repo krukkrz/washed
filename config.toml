@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "https://youthful-roentgen-4c30db.netlify.app/"
+baseurl = "https://washed.pl/"
 title = "Washed.pl"
 theme = "vex-hugo"
 # post excert

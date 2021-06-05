@@ -13,7 +13,7 @@ banner:
 promo:
   enable: true
   image: "images/pie_chart.png"
-  title: "52% polaków"
+  title: "52% Polaków"
   content: "Tylu z nas twierdzi, że nie ufa informacjom podawanym w mediach. Jeżeli Ciebie też to męczy, dołącz do <b>Washed.pl</b>"
   button:
     enable: true

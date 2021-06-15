@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Dowiedz się więcej"
-    link: "error"
+    link: "learn-more/business_model/"
 
 ############################# promo ############################
 promo:

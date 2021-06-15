@@ -1,0 +1,28 @@
+{{ $data := .Params }}
+
+{{if  $data.picture_left.enable }}
+{{with  $data.picture_left}}
+
+<section class="bg-black section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center text-center text-md-left">
+          <div class="content">
+            <h2 class="subheading text-white font-weight-bold mb-10">{{ .title | markdownify }}</h2>
+            <p class="text-white">{{ .content | markdownify }}</p>
+            {{ if .button.enable }}
+                      {{ with .button }}
+                      <a href="{{.link|absLangURL}}" class="btn btn-main">{{.label}}</a>
+                      {{ end }}
+                      {{ end }}
+          </div>
+        </div>
+        <div class="col-md-6 text-center mb-5 mb-lg-0">
+            <img class="img-fluid" src="{{ .image | absURL }}" alt="">
+          </div>
+      </div>
+    </div>
+</section>
+
+{{ end }}
+{{ end }}

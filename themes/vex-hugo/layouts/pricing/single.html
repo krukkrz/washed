@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12" style="text-align: center;">
+        <h1>
+          {{.Title}}
+        </h1>
+      </div>
+    </div>
+    <div class="row justify-content-center" style="margin-top: 40px;">
+      <div onclick="location.href='/error';" class="col-sm-5 mb-4 mb-md-0"  style="background-color: white; cursor: pointer; text-align: center; border-style: solid; margin: 2px;  padding: 30px;">
+        <h2 style="margin-bottom: 30px;">
+          Free
+        </h2>
+        <ul style="text-align: left; margin-bottom: 30px;">
+          <li>
+            - darmowe 10 artykułów dziennie
+          </li>
+          <li>
+            - dostęp do częściowego raportu
+          </li>
+        </ul>
+        <h3>za darmo</h3>
+      </div>
+      <div onclick="location.href='/error';" class="col-sm-5 mb-4 mb-md-0"  style="background-color: white; cursor: pointer; text-align: center; border-style: solid; margin: 2px; padding: 30px;">
+        <h2 style="margin-bottom: 30px;">
+          Premium
+        </h2>
+        <ul style="text-align: left; margin-bottom: 30px;">
+          <li>
+            - dostęp do wszystkich artykułów
+          </li>
+          <li>
+            - pełny raport dla każdego artykułu
+          </li>
+        </ul>
+
+        <h3>10 zł miesięcznie</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

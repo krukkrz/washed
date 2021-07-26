@@ -43,12 +43,12 @@ link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"
 # homepage section menu
 [[menu.main]]
 name = "ZALOGUJ"
-url = "/error"
+url = "/pricing/pricing"
 weight = 1
 
 [[menu.main]]
 name = "ZAREJESTRUJ"
-url = "/error"
+url = "/pricing/pricing"
 weight = 2
 
 # footer menu

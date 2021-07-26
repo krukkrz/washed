@@ -18,7 +18,7 @@ promo:
   button:
     enable: true
     label: "Dołącz"
-    link: "error"
+    link: "pricing/pricing"
 
 ############################# how it works #######################
 how_it_works:
@@ -58,4 +58,4 @@ install:
   button:
     enable: true
     label: "Zainstaluj"
-    link: "error"
+    link: "pricing/pricing"

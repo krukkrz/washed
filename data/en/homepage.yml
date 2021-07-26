@@ -52,7 +52,7 @@ how_it_works:
 ############################# how it works #######################
 install:
   enable: true
-  bg_image: "images/03.png"
+  bg_image: "images/mockups.png"
   title: "Zainstaluj zaplikację Washed.pl"
   content: "I dołącz do społeczności, której można zaufać"
   button:

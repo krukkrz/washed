@@ -9,6 +9,29 @@ $icon-font: "themefisher-font" !important;
 /*--
     Common Css
 --*/
+
+
+.hero {
+  position: relative; 
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero::before {    
+    content: "";
+    background-image: url('../../images/03.png');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+}
+
 body {
   font-size: 14px;
   font-weight: 300;
@@ -16,6 +39,10 @@ body {
   color: #3b4045;
   font-family: $primary-font;
   -webkit-font-smoothing: antialiased;
+}
+
+.bg-op {
+  background-image: url('../../images/01.png');
 }
 
 .white-bg {

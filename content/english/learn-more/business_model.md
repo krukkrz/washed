@@ -1,6 +1,6 @@
 ---
 title: "Naszą siłą jest model biznesowy"
-image: "images/07.png"
+image: "images/mock1.png"
 description : "this is a meta description"
 draft: false
 ---
